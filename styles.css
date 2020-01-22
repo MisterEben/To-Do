@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#wrapper {
+    width: 80%;
+    margin: 50px auto;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+}
+
+.head {
+    background-color: rgb(206, 194, 194);
+    text-align: center;
+    
+    padding: 20px;
+}
+.head input {
+    margin: 15px auto;
+    padding: 5px;
+    width: 250px;
+}
+
+#mainContent {
+    margin: 40px 100px;
+}
+#theBooks h2 {
+    margin-bottom: 30px;
+}
+
+#theBooks ul{
+    list-style-type: none;
+    padding: 0; 
+}
+#theBooks li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+
+#theBooks li:hover{
+    border-color: hotpink;
+}
+
+
+.list {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.btn {
+    float: right;
+    background-color: hotpink;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #333;
+}
+
+
+#add-book{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-book input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* font-size: 16px; */
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+}
+
+#add-book button{
+    border: 1px solid hotpink;
+    background: hotpink;
+    padding: 10px 20px;
+    
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 50px;
+    float: left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#add-book:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#add-book #hide{
+    float: left;
+    width: 30px;
+}
+
+#add-book label {
+    line-height: 52px;
+    float: left;
+}
+
+#canva{
+    cursor: pointer;
+    width: 80%;
+    height: 200px;
+    margin: 0px 60px 10px;
+}
